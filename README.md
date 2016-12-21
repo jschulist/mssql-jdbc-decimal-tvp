@@ -1,5 +1,5 @@
 # mssql-jdbc-decimal-tvp
-Tests reproducing some exceptions encountered when passing BigDecimals in TVP's via mssql jdbc.  An example exception of the exception seen:
+Tests reproducing some exceptions encountered when passing BigDecimals in TVP's via mssql jdbc.  An example of the exception seen:
 
 com.microsoft.sqlserver.jdbc.SQLServerException: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Table-valued parameter 0 (""), row 0, column 0: Data type 0x6C has an invalid precision or scale.
 
